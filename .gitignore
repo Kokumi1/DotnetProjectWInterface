@@ -1,0 +1,58 @@
+# Ignorer le dossier et son contenu g�n�rant les fichiers CSV
+/GeneratedCsvFiles/
+# Ignorer le dossier et son contenu g�n�rant les fichiers CSV
+BackEnd/GeneratedCsvFiles/
+
+
+# Ignorer bin et obj dans le dossier BackEnd
+BackEnd/bin/
+BackEnd/obj/
+
+# Ignorer bin et obj dans le dossier FrontEnd
+FrontEnd/bin/
+FrontEnd/obj/
+
+# Fichiers utilisateur de Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Fichiers sp�cifiques au projet
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fichiers g�n�r�s par la compilation
+bin/
+obj/
+
+# Dossier de publication
+.publish/
+
+# Fichiers de cache
+.nuget/
+.cache/
+
+# Fichiers de log
+*.log
+
+# Dossiers sp�cifiques � .NET Core
+artifacts/
+
+# Fichiers temporaires
+tmp/
+
+# D�pendances Node.js (si applicable)
+node_modules/
+
+# Ignorer les secrets et cl�s priv�es
+secrets.json
+appsettings.Development.json
+/BackEnd/obj/Debug/net8.0
+Transaction.json
+/BackEnd/GeneratedCsvFiles
+/BackEnd/Archive
+/FrontEnd/Migrations
+Operation.xml
+Transactionarc.json

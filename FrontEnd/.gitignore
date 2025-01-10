@@ -1,0 +1,37 @@
+# Fichiers utilisateur de Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Fichiers spécifiques au projet
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fichiers générés par la compilation
+bin/
+obj/
+
+# Dossier de publication
+.publish/
+
+# Fichiers de cache
+.nuget/
+.cache/
+
+# Fichiers de log
+*.log
+
+# Dossiers spécifiques à .NET Core
+artifacts/
+
+# Fichiers temporaires
+tmp/
+
+# Dépendances Node.js (si applicable)
+node_modules/
+
+# Ignorer les secrets et clés privées
+secrets.json
+appsettings.Development.json
